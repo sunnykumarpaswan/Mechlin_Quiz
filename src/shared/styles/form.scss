@@ -1,0 +1,52 @@
+.form-wrapper {
+  height: 100%;
+  background-color: #dedede;
+
+  mat-card {
+    padding: 20px 50px 30px;
+  }
+
+  mat-card-header {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-container {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .input-field, .btn-block {
+    width: 100%;
+  }
+
+  .mat-stroked-button {
+    border: 1px solid currentColor;
+    padding: 10px;
+    background: #FFF7FA;
+  }
+
+  .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 10px;
+  }
+
+  .message {
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .success {
+    border: 1px solid #74e274;
+    background-color: rgba(144, 238, 144, .3);
+    color: #52a952;
+  }
+
+  .error {
+    border: 1px solid #f44336;
+    background-color: rgba(238, 26, 26, 0.2);
+    color: #f44336;
+  }
+}
